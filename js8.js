@@ -1,6 +1,6 @@
 //DOM : document object model
 
-console.log("hello!")
+console.log("pinal")
 console.log(window)
 console.dir(window.Document)
 console.dir(document.body.childNodes[1])
