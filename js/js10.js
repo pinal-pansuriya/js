@@ -1,6 +1,6 @@
 //Events -> the change in the state of an object is know as an event.
 
-let btn1 = document.querySelector("button")
+let btn1 = document.querySelector("mode")
 
 btn1.onclick = (evt) => {
 console.log("btn1 was clicked")
