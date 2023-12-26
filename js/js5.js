@@ -21,7 +21,7 @@ console.log(sentence)
 var  str="pinal"
 str=str.toUpperCase()
 console.log(str)
-//toLowerCase(
+//toLowerCase
 
 var str="PINAL"
 str=str.toLowerCase()   

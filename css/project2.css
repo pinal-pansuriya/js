@@ -5,15 +5,15 @@
 h1{
     background-color:bisque;
     line-height: 5rem;
-    
 }
+
 .choice{
  height: 160px;
  width: 160px;
  border-radius: 50%;
- display: flex;
- justify-content: center;
- align-items: center;
+  display :flex; 
+  justify-content: center;
+ align-items: center; 
 }
 
 .choice:hover{

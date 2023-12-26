@@ -76,7 +76,7 @@ const countvow = (str) =>{
 let arr = [1,2,3,4,5]
 
 arr.forEach((val,idx,arr)=>{
-    console.log(val,idx,arr);
+    console.log("foreach", val,idx,arr);
 });
 
 //practice
@@ -87,17 +87,17 @@ nums.forEach((num) =>{
     console.log(num*num)
 });
 
-//array mathode
+//array mathod->find
 
 //map
 
-let num=[2,3,45,56]
+let num=[1,2,3,45,56]
 
-let newArr = nums.map((val) => {
+let newArr = num.map((val) => {
     return val * 2;
 });
 
-console.log(newArr);
+console.log( "map",newArr);
 
 //filter
 
@@ -105,18 +105,20 @@ let arry=[1,2,3,4,5,6,7]
 let evenarr= arry.filter((val) =>{
     return val % 2===0;
 });
-console.log(evenarr)
+console.log("filter",evenarr)
 
 //reduce
 
 let array = [1,2,3,4]
 
 const output = array.reduce((prev,curr) =>{
-   //return res + curr
-   return prev < curr ? prev : curr;
-});
+    console.log("reduse",prev,curr)
+   return prev + curr
+   
+//    return prev < curr ? prev : curr;
+},10);
 
-console.log(output)
+console.log("reduse",output)
 
 //practice
 
@@ -136,7 +138,7 @@ let aray =[]
 for(let i=1; i<=n; i++){
     aray[i-1] =i;
 }
-console.log(aray)
+console.log("practice",aray)
 
 const numsum = aray.reduce((pre,curr) =>{
 

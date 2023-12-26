@@ -15,7 +15,7 @@ const compchoice= () => {
 }
 
 const drawgame = () => {
-    console.log("game is draw")
+    //console.log("game is draw")
     msg.innerText = "game is draw.play again."
     msg.style.backgroundColor = "black"
 }
@@ -48,7 +48,7 @@ const playgame = (userchoice) => {
    }else{
     let userwin = true
     if(userchoice === "rock"){
-        userwin = comchoice === "paper" ? true : false
+        userwin = comchoice === "paper" ? false : true
     }else if(userchoice === "paper"){
         userwin = comchoice === "scissors" ? false : true
    }else {
