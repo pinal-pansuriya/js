@@ -2,7 +2,7 @@
 
 let num = [1,2,3,4,5]
 let b=num.toString()
-console.log(num)
+console.log(b)
 
 //join
 
@@ -30,7 +30,7 @@ console.log(num)
 //unshift->add first el
 
 let g = num.unshift(10)
-console.log(f)
+console.log(g)
 console.log(num)
 
 //delete (operator)
@@ -50,13 +50,17 @@ console.log(newarr)
 // console.log(arr)
 
 //asse,dis
-let compare = (a,b) => {
+// let name = (a,b) => {
 
-    // return a-b
-    return b-a
-}
-arr.sort(compare)
-console.log(arr)
+//     // return a-b
+//     return b-a
+// }
+arr.sort((a,b) => {
+
+    return a-b
+    // return b-a
+})
+console.log("sort",arr)
 
 //revers->revers arr
 
@@ -74,7 +78,5 @@ console.log(arr)
 //slice ->return newarr
 
 let newarray=num.slice(2,4)
-console.log(newarray)
-
-
+console.log("slice",newarray)
 
