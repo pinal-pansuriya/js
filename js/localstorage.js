@@ -18,7 +18,3 @@ if(key == "red" || key == "blue"){
 //     localStorage.clear()
 // }
 
-
-//key(index)
-
-localStorage.key(0)

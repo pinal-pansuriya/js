@@ -1,6 +1,3 @@
-
-
-    
 //    message = "good global"
 // function hello1(){
 //    let message = "Good Morning"
