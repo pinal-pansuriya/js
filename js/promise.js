@@ -8,9 +8,9 @@ const mypromise = new Promise((resolve,reject) => {
     }
 })
 
-// let message
-// mypromise.then((m) => {
-//     console.log(m)
-// }).catch((err) => {
-//     console.log(err)
-//})
+let message
+mypromise.then((m) => {
+    console.log(m)
+}).catch((err) => {
+    console.log(err)
+})

@@ -13,7 +13,7 @@ let arr =String([1,2,3,4,5])
 console.log(arr.length ,(typeof arr))
 
 let i = 2
-console.log(i.toString())
+console.log(i.toString(),(typeof i))
 
 let str = Number("123")
 // console.log(str,(typeof str))

@@ -114,4 +114,4 @@ function api() {
 
 async function getWeatherData() {
     await api()
-}
+} 
